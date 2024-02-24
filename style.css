@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+header{
+    background: url(images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar .container{
+    width: 100%;
+    height: 14vh;
+}
+
+.navbar .container a.navbar-brand{
+    position: relative;
+    bottom: 10px;
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.mini{
+    position: relative;
+    top: 16px;
+    color: #fc5181;
+    right: 52px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.navbar .container a.navbar-brand i{
+    font-size: 38px;
+    position: relative;
+    top: 10px;
+}
+
+.navbar-nav{
+    gap: 16px;
+    font-size: 15px;
+}
+
+.navbar-nav button{
+    width: 30%;
+    height: 56px;
+    background-color: #fc4c81;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.navbar-nav button:hover{
+    color: #000;
+    background-color: #fc4c81;
+}
+
+.nav-item a{
+    color: #000;   
+}
+
+.wrap{
+    height: 7vh;
+}
+
+.wrap .phone{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: 19px;
+}
+
+.wrap .phone{
+    color: #a1a1a1;
+}
+
+.wrap .phone a{
+    text-decoration: none;
+    color: #000;
+}
+
+.social{
+    position: relative;
+    bottom: 23px;
+    font-size: 18px;
+}
+
+.social a{
+    color: #000;
+    background-color: #fff;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.social a:hover{
+    color: #fff;
+    background-color: #fc4c81;
+}
+
+.section{
+    position: absolute;
+    bottom: 5rem;
+    left: 8rem;
+}
+
+.section h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section p{
+    font-weight: 400;
+    color: #a3a3a3;
+    line-height: 2rem;
+    padding-left: 10px;
+}
+
+.section button{
+    width: 37%;
+    height: 58px;
+    background-color: #fc4c81;
+    color: #fff;
+    font-size: 14px;
+    border: none;   
+}
+
+#btn{
+    background-color: #90c234;
+}
+
+#btn1:hover{
+    background-color: #fc4c81;
+}
+
+#btn:hover{
+    background-color: transparent;
+    border: 1px solid #90c234;
+    color: #90c234;
+}
