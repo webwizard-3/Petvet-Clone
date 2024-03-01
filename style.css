@@ -148,3 +148,114 @@ header{
     border: 1px solid #90c234;
     color: #90c234;
 }
+
+.cards{
+    width: 89%;
+    margin: auto;
+    position: relative;
+    left: 2em;
+    bottom: 4em;
+}
+
+.cards h3{
+    position: relative;
+    bottom: 24px;
+    left: 80px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+}
+
+.cards p{
+    position: relative;
+    bottom: 25px;
+    left: 5em;
+    font-weight: 500;
+    color: #b5b5b5;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.cards img{
+    background-color: #f0f0f0;
+    padding: 7px;
+    width: 57px;
+    border-radius: 50%;
+    position: relative;
+    top: 2em;
+    left: 6px;
+}
+
+.card1{
+    background-color: #ffffff;
+    padding-left: 10px;
+    width: 27%;
+    height: 149px;
+    border-radius: 7px;
+}
+
+.card1:hover{
+    background-color: #fc4c81;
+    color: #fff;
+}
+
+.card1 p:hover{
+    color: #fff;
+}
+
+
+.content {
+    width: 81%;
+    margin: auto;
+    padding: 20px;
+}
+
+.img1{
+    margin-right: 30px;
+}
+
+.word{
+    position: relative;
+    top: 5rem;
+    left: 3em;
+}
+
+.word h5{
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.9px;
+    color: #fc5181;
+}
+
+.word h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.word p{
+    color: #a1a1a1;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.word ul{
+    list-style: none;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.word ul li{
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+.word ul li span{
+    border-radius: 7px;
+    background-color: #fc4c81;
+    padding: 8px;
+    margin-right: 10px;
+}
